@@ -13,23 +13,29 @@
   <body>
     <div class="weather-app">
     <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
+      <form class="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-form-input" />
+        <input type="submit" value="search" class="search-form-button"/>
       </form>
     </header>
     <main>
-      <div>
-        <h1>Shiraz</h1>
+      <div class="weather-app-data">
+       <div>
+        <h1 class="weather-app-city">Shiraz</h1>
         <p>
-          <div>
-           <div>Monday</span><span>18:57, <span>light rain</span></div>
-           <div>Humidity: <span>89%</span>, Wind: <span>3</span>m/s</div>
-          </div>
+           <div class="weather-app-details">
+             Monday <span>18:57</span>, <span>light rain</span>
+             <br />
+             Humidity: <strong>89%</strong>, Wind: <strong>3km/s</strong>
+           </div>
         </p>
       </div>
-      <div>Last updated: <span>18:00</span></div>
-      <div><span>☁</span> <span>7</span>℃</div>
+      <div class="weather-app-temperature-container">
+        <div class="weather-app-icon">☁</div>
+        <div class="weather-app-temperature">7</div>
+        <div class="weather-app-unit">℃</div>
+      </div>
+    </div>
     </main>
     <footer>
       This project was coded by
