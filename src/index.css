@@ -29,19 +29,20 @@ main {
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
-  border-radius: 20px 0 0 20px;
-  padding: 15px 20px;
+  border-radius: 6px;
   width: 80%;
-  margin-right: -2px;
+  font-size: 16px;
+  padding: 15px 20px;
 }
 
 .search-form-button {
-  background-color: #f9f7fe;
-  padding: 15px 20px;
-  border-radius: 0 20px 20px 0;
+  background: #885df1;
+  padding: 15px 30px;
   border: none;
-  color: #885df1;
-  margin-left: -2px;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
 }
 
 .weather-app-data {
@@ -72,13 +73,13 @@ main {
 
 .weather-app-temperature {
   font-size: 88px;
+  line-height: 88px;
   font-weight: bold;
-  margin-left: 10px;
 }
 
 .weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-unit {
