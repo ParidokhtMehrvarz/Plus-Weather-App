@@ -107,6 +107,7 @@ main {
   border-radius: 20px;
   padding: 15px 0 15px 0;
   box-shadow: 0 30px 50px #77629e;
+  background-color: #2b2f54;
 }
 
 .weather-forecast-date {
